@@ -44,3 +44,18 @@ We adopt a two-stage training strategy to address intraoperative adverse events 
   python stage2_main.py
   ```
 
+## 📈 Visualization
+
+We provide a visualization script to demonstrate anomaly detection results on demo videos.
+
+- **Step 1: Download the provided pretrained weights**
+  
+  Please download the provided trained model weights and pretrained I3D extractor weights. Place them into the `weights/` and `extractors/weights/` directories, respectively.
+
+- **Step 2: Run visualization on demo videos**
+  
+  Execute the following script to visualize anomaly scores and detection results:
+  ```bash
+  python visualization.py --input demo/videos/BLEED&BLUR.mp4 --output demo/results/VIS_BLEED&BLUR.mp4
+  ```
+
