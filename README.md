@@ -8,7 +8,7 @@ This repository contains the code, dataset, and visualization tools for the pape
 
 We release a large-scale endoscopic video dataset covering seven types of intraoperative adverse events (iAEs) across heterogeneous surgical domains.
 
-- **Download**: [Google Drive Link]([https://drive.google.com/drive/folders/19ahVLgS_LQjxGFPtC3tJ-Nicv6EMKiPo?usp=sharing])
+- **Download**: [Google Drive Link](https://drive.google.com/drive/folders/19ahVLgS_LQjxGFPtC3tJ-Nicv6EMKiPo?usp=sharing)
 - **Contents**:
   - Video clips annotated with weak (video-level) labels
   - Frame-level ground truth for evaluation
