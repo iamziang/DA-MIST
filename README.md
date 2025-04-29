@@ -13,3 +13,4 @@ We release a large-scale endoscopic video dataset covering seven types of intrao
   - Video clips annotated with weak (video-level) labels
   - Frame-level ground truth for evaluation
 - **Structure**:
+- dataset/ ├── train/ ├── val/ ├── test/ └── labels/
