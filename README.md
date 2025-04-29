@@ -8,10 +8,14 @@ This repository contains the code, dataset, and visualization tools for the pape
 
 We release a large-scale endoscopic video dataset covering seven types of intraoperative adverse events (iAEs) across heterogeneous surgical domains.
 
-- **Download**: [Google Drive Link](https://drive.google.com/drive/folders/19ahVLgS_LQjxGFPtC3tJ-Nicv6EMKiPo?usp=sharing)
+- **Download**:
+  - **Source domain (Cholec80)**: [Google Drive Link](https://drive.google.com/drive/folders/1uD6xBg4Iq8ypyDN8DbM1OgFVSX5QXGwL?usp=sharing)
+  - **Target domain (dViAEs)**: [Google Drive Link](https://drive.google.com/drive/folders/10gkrhLgWkh5zdhjeVvc7rglEc6Aco2dl?usp=sharing)
+
 - **Contents**:
-  - source domain: Cholec80 is re-annotated for iAEs detection from laparoscopic cholecystectomy videos.
-  - target domain: dViAEs comprises robot-assisted colorectal and HPB surgery videos.
+  - **Source domain**: Cholec80 is re-annotated for iAEs detection from laparoscopic cholecystectomy videos.
+  - **Target domain**: dViAEs comprises robot-assisted colorectal and HPB surgery videos.
+
 - **Preprocessing**:
   1. Download all videos into the `data/` directory.
   2. Extract video frames by running:
