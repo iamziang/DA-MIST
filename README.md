@@ -26,4 +26,21 @@ We release a large-scale endoscopic video dataset covering seven types of intrao
      ```bash
      python i3d_extract.py --input_dir frames/ --output_dir features/
      ```
+     
+## 🛠️ Training
+
+We adopt a two-stage training strategy to address intraoperative adverse events (iAEs) detection.
+
+- **Stage 1: Pretraining with Multiple Instance Learning (source domain)**
+  ```bash
+  python stage1_main.py
+  ```
+- **Generate pseudo-labels for both the source and target domains. Pseudo-labels save in the `pseudo_label/` directory.
+  ```bash
+  python pseudo_generation.py
+  ```
+- **Stage 2: Self-Training for Domain Adaptation (mixed domains)**
+  ```bash
+  python stage2_main.py
+  ```
 
