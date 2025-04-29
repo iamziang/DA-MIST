@@ -12,4 +12,14 @@ We release a large-scale endoscopic video dataset covering seven types of intrao
 - **Contents**:
   - source domain: Cholec80 is re-annotated for iAEs detection from laparoscopic cholecystectomy videos.
   - target domain: dViAEs comprises robot-assisted colorectal and HPB surgery videos.
+- **Preprocessing**:
+  1. Download all videos into the `data/` directory.
+  2. Extract video frames by running:
+     ```bash
+     python extract_frame.py --input_dir data/ --output_dir frames/
+     ```
+  3. Extract I3D feature sequences for model training:
+     ```bash
+     python i3d_extract.py --input_dir frames/ --output_dir features/
+     ```
 
