@@ -1,6 +1,6 @@
-# DA-MIST: Domain Adaptive Multiple Instance Self-Training for Intraoperative Adverse Event Detection
+# DA-MIST: Domain Adaptive Multiple Instance Self-Training for Intraoperative Anomaly Detection
 
-This repository contains the code, dataset, and visualization tools for the paper **"Domain Adaptive Multiple Instance Self-Training for Intraoperative Adverse Event Detection"**.
+This repository contains the code, dataset, and visualization tools for the paper **"Domain Adaptive Multiple Instance Self-Training for Intraoperative Anomaly Detection"**.
 
 ---
 
